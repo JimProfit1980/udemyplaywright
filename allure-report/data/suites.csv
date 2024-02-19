@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Feb 19 05:13:53 CAT 2024","Mon Feb 19 05:14:03 CAT 2024","10227","chromium","chrome.spec.ts","","","","Verify Heading Text",""
+"failed","Mon Feb 19 05:13:53 CAT 2024","Mon Feb 19 05:14:09 CAT 2024","15988","chromium","chrome.spec.ts","","","","Navigating to the About page and getting title",""
+"passed","Mon Feb 19 05:13:53 CAT 2024","Mon Feb 19 05:14:03 CAT 2024","10163","chromium","chrome.spec.ts","Home Page Tests","","","Click Get Started Button",""
+"passed","Mon Feb 19 05:13:53 CAT 2024","Mon Feb 19 05:14:03 CAT 2024","9840","chromium","chrome.spec.ts","Home Page Tests","","","Validating Home Page Navigation",""
