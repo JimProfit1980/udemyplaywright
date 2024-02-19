@@ -3,7 +3,7 @@ on: [push]
 jobs:
   test-e2e:
     name: Run E2E tests
-    runs-on: ubuntu-20.4
+    runs-on: ubuntu-20.04
     steps: 
      - uses: actions/checkout@v3
      - uses: actions/setup-node@v2
@@ -14,6 +14,6 @@ jobs:
      - name: Install Playwright
        run : npx playwright install --with-deps
      - name: Run your tests
-       run: npx playwright test chrome.spec.ts
+       run: npx playwright test tests/chrome.spec.ts
 
 
